@@ -1,0 +1,115 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Light gray background color */
+}
+/* Overall container styling */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #9fd3e2; /* Light gray background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(108, 152, 218, 0.1); /* Drop shadow effect */
+  color: wheat;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 20px;
+  display: flex; /* Display form items in a row */
+  justify-content: space-between; /* Space evenly */
+}
+
+.inner-div{
+  display: flex;
+  align-items: center;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+
+/* Text input field styling */
+input[type="text"] {
+  flex: 1; /* Take remaining space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual task item styling */
+li {
+  margin-bottom: 10px;
+  background-color: #fff; /* White background color */
+  padding: 10px;
+  border-radius: 5px;
+  display: flex; /* Display items in a row */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space evenly */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  margin-right: 10px;
+  border-radius:50%;
+}
+
+/* Task title styling */
+span {
+  flex: 1; /* Take remaining space */
+  font-size: 18px;
+  color: #333;
+}
+
+/* Delete button styling */
+button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Select dropdown styling */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  color: #333;
+}
